@@ -1,1 +1,1 @@
-{"name":"pxxl-xray","private":true,"scripts":{"start":"bash start.sh"}}
+{"name":"pxxl-xray","private":true,"scripts":{"start":"bash start.sh","build":"curl -L -o xray.zip https://github.com/XTLS/Xray-core/releases/latest/download/Xray-linux-64.zip && unzip -o xray.zip xray && chmod +x xray && ls -lh xray"}}
